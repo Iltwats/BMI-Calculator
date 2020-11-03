@@ -13,10 +13,10 @@ public class BMICategory {
             conditionColor = Color.parseColor("#2196f3"); //blue
         } else if (result >=15 && result <= 16) {
             category = "Severely Underweight";
-            conditionColor = Color.parseColor("#0D09DD"); //green
+            conditionColor = Color.parseColor("#0D09DD"); //Light Blue
         } else if (result >16 && result <= 18.5) {
             category = "Underweight";
-            conditionColor = Color.parseColor("#09CFDD"); //green
+            conditionColor = Color.parseColor("#09CFDD"); //sky blue
         } else if (result >18.5 && result <= 25) {
             category = "Normal (healthy weight)";
             conditionColor = Color.parseColor("#689f38"); //green
@@ -28,7 +28,7 @@ public class BMICategory {
             conditionColor = Color.parseColor("#ff5722"); //deep orange
         } else {
             category ="Very Severely Obese";
-            conditionColor = Color.parseColor("#DD092C"); //deep orange
+            conditionColor = Color.parseColor("#DD092C"); //red
         }
         return new Pair<String,Integer>(category, conditionColor);
     }
