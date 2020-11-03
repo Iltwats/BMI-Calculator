@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Weight Picker</string>
+    <string name="pick_weight">Pick Weight</string>
+    <string name="your_weight">Your Weight</string>
+    <string name="pick_height">Pick Height</string>
+</resources>
